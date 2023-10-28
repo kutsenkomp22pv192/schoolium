@@ -31,10 +31,3 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 [Tailwind VPN Landingpage](https://next-landing-vpn.vercel.app/) was coded and modified by and is maintained by **[me](https://github.com/naufaldi/)**, and dekstop design by [Didi Kurniawan](https://twitter.com/didiikurniawann)
 
-## Copyright and License
-
-Code released under the MIT license.
-
-## To Do List Add Feature
-
-- [ ] Animation using Framer Motion
