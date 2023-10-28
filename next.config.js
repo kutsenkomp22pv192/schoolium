@@ -3,7 +3,11 @@
  */
 const nextConfig = {
   output: 'export',
-  basePath: '/schoolium',
+   images: {
+    loader: 'akamai',
+    path: '',
+  },
+  assetPrefix: './',
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
