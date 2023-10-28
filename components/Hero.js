@@ -11,17 +11,17 @@ const Hero = ({
     {
       name: "Средний балл",
       number: "84",
-      icon: "/assets/Icon/mortarboard-fill.svg",
+      icon: "./assets/Icon/mortarboard-fill.svg",
     },
     {
       name: "Срок обучения",
       number: "8 месяцев",
-      icon: "/assets/Icon/clock.svg",
+      icon: "./assets/Icon/clock.svg",
     },
     {
       name: "Предметов",
       number: "8",
-      icon: "/assets/Icon/journal-bookmark-fill.svg",
+      icon: "./assets/Icon/journal-bookmark-fill.svg",
     },
   ],
 }) => {

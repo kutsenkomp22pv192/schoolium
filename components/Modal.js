@@ -22,11 +22,11 @@ export const Modal = ({ onClose }) => {
     setPhoneError(false);
   };
   
-  return <div className={"fixed top-0 left-0 right-0 z-20 w-full p-4 bg-white-100 overflow-x-hidden overflow-y-hidden h-[calc(100%-1rem)] max-h-full flex flex-col items-center justify-center"}>
+  return <div className={"fixed top-0 left-0 right-0 z-20 w-full p-4 bg-white-100 overflow-x-hidden overflow-y-hidden h-full max-h-full flex flex-col items-center justify-center"}>
     <div className="relative w-full max-w-md max-h-full bg-white-500 rounded-xl">
       <div className="relative bg-white rounded-xl shadow-md dark:bg-gray-700">
         <button type="button" onClick={onClose}
-                className="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                className="absolute top-3 right-3 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                 data-modal-hide="authentication-modal">
           <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                viewBox="0 0 14 14">
@@ -44,7 +44,7 @@ export const Modal = ({ onClose }) => {
                      disabled={isSend}
                      onChange={handleInputName}
                      value={name}
-                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                      placeholder="ФИО" required/>
               {nameError && (
                 <p className="text-red-500 text-xs mt-1">
@@ -58,7 +58,7 @@ export const Modal = ({ onClose }) => {
                      disabled={isSend}
                      onChange={handleInputPhone}
                      value={phone}
-                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                     className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                      required/>
               {phoneError && (
                 <p className="text-red-500 text-xs mt-1">

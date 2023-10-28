@@ -10,35 +10,35 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const subjects = [
   {
-    img: '/assets/1.svg',
+    img: './assets/1.svg',
     name: "Русский язык"
   },
   {
-    img: '/assets/2.svg',
+    img: './assets/2.svg',
     name: "Химия"
   },
   {
-    img: '/assets/3.svg',
+    img: './assets/3.svg',
     name: "Математика"
   },
   {
-    img: '/assets/4.svg',
+    img: './assets/4.svg',
     name: "География"
   },
   {
-    img: '/assets/5.svg',
+    img: './assets/5.svg',
     name: "Литература"
   },
   {
-    img: '/assets/6.svg',
+    img: './assets/6.svg',
     name: "Английский язык"
   },
   {
-    img: '/assets/7.svg',
+    img: './assets/7.svg',
     name: "Физика"
   },
   {
-    img: '/assets/8.svg',
+    img: './assets/8.svg',
     name: "Обществознание"
   },
 ]

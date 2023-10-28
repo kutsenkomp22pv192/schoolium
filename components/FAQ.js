@@ -91,7 +91,7 @@ const FAQ = () => {
         <ScrollAnimationWrapper className="flex w-full md:w-full justify-center  md:justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-                src="/assets/Illustration3.svg"
+                src="./assets/Illustration3.svg"
                 layout="responsive"
                 quality={100}
                 height={350}
