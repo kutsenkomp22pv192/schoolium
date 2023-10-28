@@ -3,7 +3,9 @@
  */
 const nextConfig = {
   output: 'export',
-  basePath: 'https://kutsenkomp22pv192.github.io/schoolium',
+  images: {
+    path: "/",
+  },
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
