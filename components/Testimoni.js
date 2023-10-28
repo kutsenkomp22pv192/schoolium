@@ -92,6 +92,7 @@ const Testimoni = ({
           slidesToShow={matches ? 3 : 2} // Отображать 3 карточки одновременно
           centerMode={true} // Выравнивать карточки по центру
           className="flex flex-wrap -m-4"
+          arrows={false}
         >
           {teachers.map((teacher) => {
             return (
