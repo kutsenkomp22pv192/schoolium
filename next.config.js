@@ -3,9 +3,7 @@
  */
 const nextConfig = {
   output: 'export',
-  images: {
-    path: "/",
-  },
+  basePath: '/schoolium',
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
